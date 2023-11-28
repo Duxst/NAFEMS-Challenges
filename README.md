@@ -25,8 +25,7 @@ Simulation tools, paired with physical tests, are crucial for stochastic assessm
 4. Conduct sensitivity analysis to validate assumptions.
 5. Project the input variability to output metrics.
 6. Contrast output variations with set limits for informed design decisions.
-7. The Latin Hypercube Sampling (LHC) method boosts the efficiency of the Monte Carlo analysis by considering a comprehensive mix of input parameters.
 
-Monte Carlo analysis calculates the failure probability of a specific mode by running numerous deterministic simulations. These simulations sample load and resistance from distributions. After comparing structural responses to load and resistance for each run, the failure probability is updated. A major constraint of this method is the computational time required to ensure convergence of the failure probability.
+Monte Carlo analysis calculates the failure probability of a specific mode by running numerous deterministic simulations. The Latin Hypercube Sampling (LHC) method boosts the efficiency of the Monte Carlo analysis by considering a comprehensive mix of input parameters. 
 
 These are my attempted solutions to the NAFEMS challenges. The actual challenges can be found at https://www.nafems.org/community/working-groups/stochastics/challenge_problem/
